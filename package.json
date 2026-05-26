@@ -1,0 +1,35 @@
+{
+  "name": "assistant-telegram-bot",
+  "version": "0.1.0",
+  "description": "A minimal, dependency-free Telegram bot connection module (polling) for Node.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "packageManager": "pnpm@10.18.3",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "pnpm run clean && tsc --project tsconfig.json",
+    "lint": "tsc --noEmit -p tsconfig.json",
+    "prepare": "pnpm run build",
+    "prepublishOnly": "pnpm run build",
+    "test": "echo \"No tests\" && exit 0"
+  },
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^25.6.2",
+    "typescript": "^6.0.3"
+  }
+}
