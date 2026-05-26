@@ -1,9 +1,0 @@
-
-
-> assistant-telegram-bot@0.1.0 build /home/guibs/projects/koris-agent/apps/telegram-bot
-> pnpm run clean && tsc --project tsconfig.json
-
-
-> assistant-telegram-bot@0.1.0 clean /home/guibs/projects/koris-agent/apps/telegram-bot
-> rm -rf dist
-

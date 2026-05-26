@@ -1,4 +1,0 @@
-
-> assistant-telegram-bot@0.1.0 lint /home/guibs/projects/koris-agent/apps/telegram-bot
-> tsc --noEmit -p tsconfig.json
-
