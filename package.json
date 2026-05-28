@@ -2,6 +2,20 @@
   "name": "assistant-telegram-bot",
   "version": "0.1.0",
   "description": "A minimal, dependency-free Telegram bot connection module (polling) for Node.js",
+  "author": "Guilherme Salviano <guilherme.salviano12@outlook.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guilhermesalviano/telegram-bot.git"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "polling",
+    "telegram-bot",
+    "nodejs",
+    "typescript",
+    "zero-dependency"
+  ],
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "exports": {
@@ -16,7 +30,7 @@
   ],
   "packageManager": "pnpm@10.18.3",
   "engines": {
-    "node": ">=24.0.0"
+    "node": ">=18.0.0"
   },
   "scripts": {
     "clean": "rm -rf dist",
