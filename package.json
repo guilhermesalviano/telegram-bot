@@ -1,5 +1,5 @@
 {
-  "name": "assistant-telegram-bot",
+  "name": "telegram-bot",
   "version": "0.1.0",
   "description": "A minimal, dependency-free Telegram bot connection module (polling) for Node.js",
   "author": "Guilherme Salviano <guilherme.salviano12@outlook.com>",

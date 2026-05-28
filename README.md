@@ -1,4 +1,4 @@
-# assistant-telegram-bot
+# telegram-bot
 
 A minimal, **zero-dependency** Telegram bot polling module for Node.js, written in TypeScript.
 
@@ -16,9 +16,9 @@ A minimal, **zero-dependency** Telegram bot polling module for Node.js, written 
 ## Installation
 
 ```bash
-npm install assistant-telegram-bot
+npm install telegram-bot
 # or
-pnpm add assistant-telegram-bot
+pnpm add telegram-bot
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ pnpm add assistant-telegram-bot
 ### Quick start with `initBot`
 
 ```ts
-import { initBot } from 'assistant-telegram-bot';
+import { initBot } from 'telegram-bot';
 
 const bot = initBot({
   token: 'YOUR_BOT_TOKEN',
@@ -41,7 +41,7 @@ const bot = initBot({
 ### Direct class usage
 
 ```ts
-import { TelegramBot } from 'assistant-telegram-bot';
+import { TelegramBot } from 'telegram-bot';
 
 const bot = new TelegramBot('YOUR_BOT_TOKEN', { polling: true });
 
